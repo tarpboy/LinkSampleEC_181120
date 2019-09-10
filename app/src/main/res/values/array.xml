@@ -1,0 +1,16 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+
+<resources>
+<string-array name="selected">
+	<item>D1</item>
+	<item>D4</item>
+	<item>M8</item>
+	<item>RB</item>
+	<item>B1</item>
+	<item>B2</item>
+	<item>B3</item>
+	<item>B4</item>
+	<item>LA</item>
+	<item>PT</item>
+</string-array>
+</resources>

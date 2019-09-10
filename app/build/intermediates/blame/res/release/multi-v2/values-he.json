@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/kicc/Documents/EasyCard-A/LinkSampleEC_181120/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-he/values-he.xml",
+            "map": [
+                {
+                    "source": "/Users/kicc/.gradle/caches/transforms-2/files-2.1/2f9eda925b4ca6378619cf5272ea4d49/res/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,111,161,296",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "106,156,291,381"
+                    }
+                }
+            ]
+        }
+    ]
+}

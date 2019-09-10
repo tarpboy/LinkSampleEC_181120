@@ -1,0 +1,4 @@
+#Fri Aug 30 15:57:01 KST 2019
+base.0=/Users/kicc/Documents/EasyCard-A/LinkSampleEC_181120/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex

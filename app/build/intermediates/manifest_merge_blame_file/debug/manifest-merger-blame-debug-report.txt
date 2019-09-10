@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.heykyul.linksample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:9:5-81
+11-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:9:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:10:5-80
+12-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:10:22-77
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:11:5-65
+13-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:11:22-62
+14    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+15    <uses-feature
+15-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:24:5-26:36
+16        android:name="android.hardware.camera"
+16-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:25:9-47
+17        android:required="false" />
+17-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:26:9-33
+18    <uses-feature
+18-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:27:5-29:36
+19        android:name="android.hardware.camera.front"
+19-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:28:9-53
+20        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+20-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:29:9-33
+21    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+22    <uses-feature
+22-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:32:5-34:36
+23        android:name="android.hardware.camera.autofocus"
+23-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:33:9-57
+24        android:required="false" />
+24-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:34:9-33
+25    <uses-feature
+25-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:35:5-37:36
+26        android:name="android.hardware.camera.flash"
+26-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:36:9-53
+27        android:required="false" />
+27-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:37:9-33
+28    <uses-feature
+28-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:38:5-40:36
+29        android:name="android.hardware.screen.landscape"
+29-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:39:9-57
+30        android:required="false" />
+30-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:40:9-33
+31    <uses-feature
+31-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:41:5-43:36
+32        android:name="android.hardware.wifi"
+32-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:42:9-45
+33        android:required="false" />
+33-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:43:9-33
+34
+35    <application
+35-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:14:5-41:19
+36        android:allowBackup="true"
+36-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:15:9-35
+37        android:debuggable="true"
+38        android:icon="@drawable/ic_launcher"
+38-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:16:9-45
+39        android:label="@string/app_name"
+39-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:17:9-41
+40        android:theme="@style/AppTheme" >
+40-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:18:9-40
+41        <activity
+41-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:19:9-30:20
+42            android:name="com.heykyul.linksample.MainActivity"
+42-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:20:13-41
+43            android:label="@string/app_name" >
+43-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:21:13-45
+44            <intent-filter>
+44-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:22:13-25:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:23:17-69
+45-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:23:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:24:17-77
+47-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:24:27-74
+48            </intent-filter>
+49            <intent-filter>
+49-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:26:13-29:26
+50                <action android:name="android.intent.action.VIEW" />
+50-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:27:14-65
+50-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:27:22-63
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:28:14-72
+52-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:28:24-70
+53            </intent-filter>
+54        </activity>
+55        <activity android:name="com.heykyul.linksample.ResultActivity" />
+55-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:32:9-52
+55-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:32:19-49
+56        <activity
+56-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:34:9-39:15
+57            android:name="com.heykyul.linksample.qr.CaptureActivityAnyOrientation"
+57-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:34:19-67
+58            android:screenOrientation="fullSensor"
+58-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:35:13-51
+59            android:stateNotNeeded="true"
+59-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:36:13-42
+60            android:theme="@style/zxing_CaptureTheme"
+60-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:37:13-54
+61            android:windowSoftInputMode="stateAlwaysHidden" />
+61-->/Users/77102201-PC/Desktop/EasyCard-A/LinkSampleEC_181120/app/src/main/AndroidManifest.xml:38:13-60
+62
+63        <meta-data
+63-->[com.android.support:appcompat-v7:26.1.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/e4a41c2346dd5a38c111db5ef8bb8159/appcompat-v7-26.1.0/AndroidManifest.xml:26:9-28:38
+64            android:name="android.support.VERSION"
+64-->[com.android.support:appcompat-v7:26.1.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/e4a41c2346dd5a38c111db5ef8bb8159/appcompat-v7-26.1.0/AndroidManifest.xml:27:13-51
+65            android:value="26.1.0" />
+65-->[com.android.support:appcompat-v7:26.1.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/e4a41c2346dd5a38c111db5ef8bb8159/appcompat-v7-26.1.0/AndroidManifest.xml:28:13-35
+66
+67        <activity
+67-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:46:9-52:63
+68            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+68-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:47:13-74
+69            android:clearTaskOnLaunch="true"
+69-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:48:13-45
+70            android:screenOrientation="sensorLandscape"
+70-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:49:13-56
+71            android:stateNotNeeded="true"
+71-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:50:13-42
+72            android:theme="@style/zxing_CaptureTheme"
+72-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:51:13-54
+73            android:windowSoftInputMode="stateAlwaysHidden" />
+73-->[com.journeyapps:zxing-android-embedded:3.2.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/70bb90ace6f61a544d13effc86b9b773/zxing-android-embedded-3.2.0/AndroidManifest.xml:52:13-60
+74
+75        <meta-data
+75-->[android.arch.lifecycle:runtime:1.0.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/4464663fb769105e8b28960e2589148c/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+76            android:name="android.arch.lifecycle.VERSION"
+76-->[android.arch.lifecycle:runtime:1.0.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/4464663fb769105e8b28960e2589148c/runtime-1.0.0/AndroidManifest.xml:26:13-58
+77            android:value="27.0.0-SNAPSHOT" />
+77-->[android.arch.lifecycle:runtime:1.0.0] /Users/77102201-PC/.gradle/caches/transforms-2/files-2.1/4464663fb769105e8b28960e2589148c/runtime-1.0.0/AndroidManifest.xml:27:13-44
+78    </application>
+79
+80</manifest>
